@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.StockAccountant {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('./Assets/StockAccountant.jpg');
+}
+
+.ProductionAccountant {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('./Assets/ProductionAccountant.jpg');
+}
+
+.FinancieelAdministrateur {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('./Assets/FinancieelAdministrateur.jpg');
+}
+
+.Werkvoorbereider {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('./Assets/WerkvoorbereiderNieuwbouw.png');
+}
+
+.DataCleaner {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('./Assets/DataCleaner.jpg');
+}
+
+.Timmerman {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('./Assets/Timmerman.jpg');
+}
+
+/* .Woonwijk {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('./Assets/Woonwijk.jpg');
+} */
