@@ -12,41 +12,78 @@ code {
     monospace;
 }
 
-.StockAccountant {
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url('./Assets/StockAccountant.jpg');
+ .StockAccountant {
+  min-height: 80vh;  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./assets/StockAccountant.jpeg');
 }
 
 .ProductionAccountant {
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url('./Assets/ProductionAccountant.jpg');
+  min-height: 80vh;  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./assets/ProductionAccountant.jpeg');
 }
 
 .FinancieelAdministrateur {
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url('./Assets/FinancieelAdministrateur.jpg');
+  min-height: 80vh;  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./assets/FinancieelAdministrateur.jpeg');
 }
 
-.Werkvoorbereider {
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url('./Assets/WerkvoorbereiderNieuwbouw.png');
+.Werkvoorbereider img { 
+  width: auto;
+  height: 80vh;
+} 
+
+h3 { 
+  padding-left: 25px;
+    }
+
+body {
+  margin-top: 70px;
+  padding-bottom: 15px;
+  padding-left: 8px;
+  }
+
+.iframe-div {
+  padding-left: 30px;
 }
 
-.DataCleaner {
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url('./Assets/DataCleaner.jpg');
+
+.Timmermanfoto {
+  min-height: 80vh;  
+  background-origin: content-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./assets/Timmerman.jpeg');
 }
 
-.Timmerman {
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url('./Assets/Timmerman.jpg');
+.G4SDeposita {
+  display: grid;
+  /* align-items: center;  */
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  padding-right: 30px;
 }
+
+.text {
+  padding-left: 30px;
+}
+
+.iframe {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  float: left;
+  /* margin-left: 20px; */
+  }
 
 /* .Woonwijk {
   min-height: 100vh;

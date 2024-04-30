@@ -1,6 +1,12 @@
 import React from 'react';
 import './Home.css';
 import { Link } from "react-router-dom";
+import StockAccountant from 'pages/stockAccountant/StockAccountant';
+import DataCleaner from 'pages/dataCleaner/DataCleaner';
+import Werkvoorbereider from 'pages/werkvoorbereider/Werkvoorbereider';
+import Timmerman from 'pages/timmerman/Timmerman';
+import ProductionAccountant from 'pages/productionAccountant/ProductionAccountant';
+import FinancieelAdministrateur from 'pages/financieelAdministrateur/FinancieelAdministrateur';
 
 //Not working:
 // import Dayschedule from '../../Components/dayschedule/Dayschedule'
@@ -10,17 +16,15 @@ function Home() {
     return (
         <div className='Woonwijk'>            
             <section className="Home">
-                <h3>Welkom bij 
-                    aannemersbedrijf X</h3>
-                <p >Wij zijn een aannemersbedrijf met jaren ervaring die over velen generaties strekken.</p>         
+                <h3>Welkom op mijn profiel</h3>
+                <p>Je kunt hier mijn cv bezichtigen.</p>         
             </section>
-            {/* <Dayschedule/> */}
-            <Link className="arrow" to="/homeExtension">
-                <div className="material-symbols-outlined">Navigate_Next</div>
-            </Link>            
-            <iframe className='iframe' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRwhzWqXRnT-lTXiP0VIkQZz_jALUJU6QJsuFcthCE4LGDm6rF_h91sDYu1eh0ipxeRtA02my7hKMf-/pubhtml?widget=true&amp;headers=false"></iframe>
-            <a href="https://docs.google.com/spreadsheets/d/1-TKVBj99zergQ1_ovq6b6bLd72ZosCFLJXYG3HTmYEw/edit#gid=0"> 
-            <button className='button'>Open in google sheet!</button> </a>
+            <DataCleaner/>
+            <Werkvoorbereider/>            
+            <Timmerman/>
+            <StockAccountant/>
+            <ProductionAccountant/>
+            <FinancieelAdministrateur/>     
         </div>
     );
 }

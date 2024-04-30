@@ -1,0 +1,45 @@
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    height: 75px;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(131, 132, 127);
+    /* Prevent screen text from appearing on navbar */
+    z-index: 100;
+}
+
+.footer nav {
+    display: flex;
+    flex-direction: row;
+    /* 1% for the scrollbar*/
+    flex-basis: 99%;
+    position: relative;
+    justify-content: space-between;
+    padding-right: 2.5em;  
+    left: 0;
+    align-items: center;
+    /* border: 1px solid rgb(231, 8, 8); */
+    height: 50px;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+}
+
+@media screen and (max-width: 767px) {
+
+}
