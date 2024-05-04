@@ -8,21 +8,21 @@ function Footer() {
             <div className="footer">
                 <nav>
                     <ul>
-                        Aannemersbedrijf
+                        Dinamica projectbegeleiding
                     </ul>           
                     <ul >
                         <li>  
-                            De vaartgraaf 13A
+                            De vaartgraaf
                         </li>
                         <li>  
                             Den Bosch 5216JH
                         </li>
                     </ul> 
                     <ul>
-                        Email: chris.stolper@gmail.com
+                        dinamica.projectbegeleiding@gmail.com
                     </ul>      
                     <ul>
-                        Chris: 061 555 2874
+                        068 247 4669
                     </ul>                  
                 </nav>
             </div>
