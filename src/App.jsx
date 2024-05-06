@@ -11,6 +11,7 @@ import Werkvoorbereider from 'pages/werkvoorbereider/Werkvoorbereider';
 import Timmerman from 'pages/timmerman/Timmerman';
 import ProductionAccountant from 'pages/productionAccountant/ProductionAccountant';
 import FinancieelAdministrateur from 'pages/financieelAdministrateur/FinancieelAdministrateur';
+import CV from './pages/CV';
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ function App() {
                 {/* <NavBar /> */}
                 <main>
                     <Routes>
+                            <Route path="/" element={ <CV/> }/>
                             <Route path="/home" element={ <Home/> }/>                                                       
                             <Route path="/stockAccountant" element={ <StockAccountant/> }/>
                             <Route path="/productionAccountant" element={ <ProductionAccountant/> }/>
