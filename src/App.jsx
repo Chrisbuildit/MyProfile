@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import './App.css'
 import Home from './pages/home/Home';
-import NavBar from "./components/navbar/Navbar";
+// import NavBar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import StockAccountant from 'pages/stockAccountant/StockAccountant';
