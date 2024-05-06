@@ -7,7 +7,7 @@ function DataCleaner () {
         <div>
             <div className='Grid-display'>
                 <body>
-                <h3>DataCleaner</h3>
+                <h3>Data Cleaner - Paardekooper</h3>
                     <ul>
                         <li>Verschonen van product informatie.</li>
                         <li>Aanvragen van ontbrekende product informatie bij leveranciers.</li>
