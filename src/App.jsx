@@ -20,7 +20,7 @@ function App() {
         // To use React-Query anywhere in the app, I first need to wrap my main component into QueryClientProvider.
         <QueryClientProvider client={queryClient}>
             <>
-                {/* <NavBar /> */}
+                <NavBar />
                 <main>
                     <Routes>
                             <Route path="/home" element={ <Home/> }/>                                                       
