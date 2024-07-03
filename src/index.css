@@ -53,18 +53,35 @@ h3 span {
     /* resize: both;
     position: relative;
     z-index: 2; */
-    transform: scale(0.8);
+    transform: scale(0.75);
     transform-origin: 0 0;
     margin-bottom: -100px;
     padding-top: 30px;  
     }
 
+    .iframe-link {    
+      padding-left: 40px;
+      padding-right: 35px;
+      width: 750px;
+      height: 580px;
+      transform: scale(0.8);
+      transform-origin: 0 0;
+      margin-bottom: -100px;
+      }
+
 iframe {
+    width: 175%;
+    height: 135%;
+    transform: scale(0.73);
+    transform-origin: 0 0;
+  }
+
+  /* iframe {
     width: 175%;
     height: 125%;
     transform: scale(0.82);
     transform-origin: 0 0;
-  }
+  } */
 
   .iframe {
     padding-left: 40px;

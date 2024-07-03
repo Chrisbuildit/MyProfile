@@ -9,14 +9,21 @@ function Boekhouder () {
                     <section>
                         <h3>Boekhouder <span>- Lithium Safety Containers</span></h3>
                         <ul>
-                            <li>Verschonen van product informatie.</li>                          
+                            <li>Verschonen van product informatie.</li>
+                            <li>Verwerken van inkomende en uitgaande facturen.</li>
+                            <li>Beheren van crediteuren- en debiteurenadministratie.</li>
+                            <li>Assisteren bij het opstellen van financiële rapportages en jaarrekeningen.</li>
+                            <li>Uitvoeren van banktransacties en het beheren van kasstromen.</li>
+                            <li>Ondersteunen bij het opstellen en controleren van budgetten en forecasts.</li>
+                            <li>Verzorgen van BTW-aangiften en andere fiscale verplichtingen.</li>
+                            <li>Bijdragen aan de optimalisatie van financiële processen en procedures.</li>            
                         </ul>
                     </section>
                     <section className='section'>
                         <p><b>Referentie: </b>b.vanbeers@lithiumsafetycontainers.com (eigenaar)</p>
                     </section>
                 </div>
-                <Link to="https://www.lithiumsafetycontainers.nl" className='iframe-div'>
+                <Link to="https://www.lithiumsafetycontainers.nl" className='iframe-link'>
                 <iframe title="Photo" src="https://www.lithiumsafetycontainers.nl"></iframe>
                 </Link>            
             </div>
