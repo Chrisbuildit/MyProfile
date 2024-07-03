@@ -12,6 +12,7 @@ import Timmerman from 'pages/timmerman/Timmerman';
 import ProductionAccountant from 'pages/productionAccountant/ProductionAccountant';
 import FinancieelAdministrateur from 'pages/financieelAdministrateur/FinancieelAdministrateur';
 import CV from './pages/CV';
+import Boekhouder from 'pages/boekhouder/Boekhouder';
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,7 @@ function App() {
                             <Route path="/timmerman" element={ <Timmerman/> }/>
                             <Route path="/financieelAdministrateur" element={ <FinancieelAdministrateur/> }/>
                             <Route path="/datacleaner" element={ <DataCleaner/> }/>
+                            <Route path="/boekhouder" element={ <Boekhouder/> }/>  
                     </Routes>
                 </main>                
                 <Footer />
