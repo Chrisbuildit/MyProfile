@@ -18,7 +18,7 @@ function Boekhouder () {
                             <li>Verzorgen van BTW-aangiften en andere fiscale verplichtingen.</li>
                             <li>Bijdragen aan de optimalisatie van financiële processen en procedures.</li>
                             <li>Kosten analyses.</li>
-                            <li>Indiening van auditfile en bijhorende stukken voor jaarrekeningen</li>           
+                            <li>Indiening van auditfile en bijhorende stukken voor jaarrekeningen.</li>           
                         </ul>
                     </section>
                     <section className='section'>
