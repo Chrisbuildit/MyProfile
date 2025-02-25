@@ -7,9 +7,9 @@ function Boekhouder () {
             <div className='Grid-display'>
                 <div className='test'>
                     <section>
-                        <h3>Boekhouder <span>- Lithium Safety Containers</span></h3>
+                        <h3>Financieel administrateur <span>- Lithium Safety Containers</span></h3>
                         <ul>
-                            <li>Verschonen van product informatie.</li>
+                            <li>Administratie van 4 vennootschappen.</li>
                             <li>Verwerken van inkomende en uitgaande facturen.</li>
                             <li>Beheren van crediteuren- en debiteurenadministratie.</li>
                             <li>Assisteren bij het opstellen van financiële rapportages en jaarrekeningen.</li>
