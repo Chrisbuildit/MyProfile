@@ -7,7 +7,7 @@ function Boekhouder () {
             <div className='Grid-display'>
                 <div className='test'>
                     <section>
-                        <h3>Financieel administrateur <span>- Lithium Safety Containers</span></h3>
+                        <h3>Financieel administrateur</h3>
                         <ul>
                             <li>Administratie van 4 vennootschappen.</li>
                             <li>Verwerken van inkomende en uitgaande facturen.</li>
@@ -16,7 +16,9 @@ function Boekhouder () {
                             <li>Uitvoeren van banktransacties en het beheren van kasstromen.</li>
                             <li>Ondersteunen bij het opstellen en controleren van budgetten en forecasts.</li>
                             <li>Verzorgen van BTW-aangiften en andere fiscale verplichtingen.</li>
-                            <li>Bijdragen aan de optimalisatie van financiële processen en procedures.</li>            
+                            <li>Bijdragen aan de optimalisatie van financiële processen en procedures.</li>
+                            <li>Kosten analyses.</li>
+                            <li>Indiening van auditfile en bijhorende stukken voor jaarrekeningen</li>           
                         </ul>
                     </section>
                     <section className='section'>
