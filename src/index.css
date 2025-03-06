@@ -123,3 +123,7 @@ img {
 .image {
   padding-right: 30px;
 }
+
+.hidden {
+  display: none;
+}
