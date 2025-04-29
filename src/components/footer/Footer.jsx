@@ -12,7 +12,7 @@ function Footer() {
                     </ul>           
                     <ul >
                         <li>  
-                            De vaartgraaf
+                            De Vaartgraaf
                         </li>
                         <li>  
                             Den Bosch 5216JH
