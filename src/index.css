@@ -53,10 +53,10 @@ h3 span {
     /* resize: both;
     position: relative;
     z-index: 2; */
-    transform: scale(0.9);
+    transform: scale(0.85);
     transform-origin: 0 0;
-    margin-bottom: -100px;
-    padding-top: 30px;
+    margin-bottom: -120px;
+    /* padding-top: 30px; */
     }
 
 .iframe-link {    

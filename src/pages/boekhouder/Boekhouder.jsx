@@ -35,8 +35,8 @@ function Boekhouder () {
                 <iframe title="Photo" src="https://www.lithiumsafetycontainers.nl"></iframe>
                 </Link>            
             </div>
-            <div className='iframe-div'>
-                <iframe title="Dashboard-PK" src="https://docs.google.com/spreadsheets/d/11yLmO3SV6ec7EbvlEo39hJkgVDIKak9pHQo8ZauztqM/edit?gid=59831044#gid=59831044"></iframe>
+            <div className='iframe-div'>                
+                <iframe title="Dashboard-PK" rel="noopener noreferrer" src="https://docs.google.com/spreadsheets/d/11yLmO3SV6ec7EbvlEo39hJkgVDIKak9pHQo8ZauztqM/edit?gid=59831044#gid=59831044"></iframe>
             </div>
         </div>
     )
