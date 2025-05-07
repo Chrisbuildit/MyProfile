@@ -1,12 +1,12 @@
 import React from 'react';
 import image from '../../assets/Aros.jpg';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-function FinancieelAdministrateur () {
+function FinancieelAdministrateurSA () {
     return (
         <div className='Grid-display'>
             <div>
-                <h3>Financieel administrateur</h3>
+                <h3>FinancieelAdministrateur</h3>
                 <ul>
                     <li>Verantwoordelijk voor de gehele financiële administratie.</li>
                     <li>Opstellen van Winst- en verliesrekening, balans en kasstroomoverzicht.</li>
@@ -36,4 +36,4 @@ function FinancieelAdministrateur () {
     )
 }
 
-export default FinancieelAdministrateur;
+export default FinancieelAdministrateurSA;

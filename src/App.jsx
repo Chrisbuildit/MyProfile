@@ -10,9 +10,10 @@ import DataCleaner from 'pages/dataCleaner/DataCleaner';
 import Werkvoorbereider from 'pages/werkvoorbereider/Werkvoorbereider';
 import Timmerman from 'pages/timmerman/Timmerman';
 import ProductionAccountant from 'pages/productionAccountant/ProductionAccountant';
-import FinancieelAdministrateur from 'pages/financieelAdministrateur/FinancieelAdministrateur';
+import FinancieelAdministrateurNL from 'pages/financieelAdministrateurNL/FinancieelAdministrateurNL';
 import CV from './pages/CV';
-import Boekhouder from 'pages/boekhouder/Boekhouder';
+import FinancieelAdministrateurSA from 'pages/FinancieelAdministrateurSA/FinancieelAdministrateurSA';
+import BoekhouderTemp from 'pages/boekhouder/BoekhouderTemp';
 
 const queryClient = new QueryClient();
 
@@ -31,9 +32,10 @@ function App() {
                             <Route path="/productionAccountant" element={ <ProductionAccountant/> }/>
                             <Route path="/werkvoorbereider" element={ <Werkvoorbereider/> }/>
                             <Route path="/timmerman" element={ <Timmerman/> }/>
-                            <Route path="/financieelAdministrateur" element={ <FinancieelAdministrateur/> }/>
+                            <Route path="/financieelAdministrateurSA" element={ <FinancieelAdministrateurSA/> }/>
                             <Route path="/datacleaner" element={ <DataCleaner/> }/>
-                            <Route path="/boekhouder" element={ <Boekhouder/> }/>  
+                            <Route path="/financieelAdministrateurNL" element={ <FinancieelAdministrateurNL/> }/>
+                            <Route path="/boekhouder" element={ <BoekhouderTemp/> }/> 
                     </Routes>
                 </main>                
                 <Footer />

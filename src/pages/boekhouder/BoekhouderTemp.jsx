@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-function Boekhouder () {
+// Temporary page to make provision for CV that refers to boekhouder for below position
+function BoekhouderTemp () {
     return (
         <div>
             <div className='Grid-display'>
@@ -42,4 +43,4 @@ function Boekhouder () {
     )
 }
 
-export default Boekhouder;
+export default BoekhouderTemp;
