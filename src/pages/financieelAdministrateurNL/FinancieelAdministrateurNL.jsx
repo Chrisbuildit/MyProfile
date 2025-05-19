@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 function FinancieelAdministrateurNL () {
+
     return (
         <div>
             <div className='Grid-display'>
@@ -14,7 +15,7 @@ function FinancieelAdministrateurNL () {
                             <li>Aanvragen van ontbrekende inkoopfacturen en declaraties (met btw).</li>
                             <li>Controle op de juiste verwerking van inkomende en uitgaande facturen.</li>
                             <li>Beheren van crediteuren- en debiteurenadministratie.</li>
-                            <li>Wekelijkse rapportage van <Link target="_blank" to="https://docs.google.com/spreadsheets/d/1Z5-Uoo0LbgxS-jvHiEIS2ZtFZeZZq12r_wQchJh2QqY/edit?gid=1421585635#gid=1421585635">crediteuren</Link> die betaald moeten worden en achterstallige debiteuren.</li>
+                            <li>Wekelijkse rapportage van <Link target="_blank" to="https://docs.google.com/spreadsheets/d/1Z5-Uoo0LbgxS-jvHiEIS2ZtFZeZZq12r_wQchJh2QqY/edit?gid=1421585635#gid=1421585635">crediteuren</Link> die betaald moeten worden en achterstallige <Link target="_blank" to="https://docs.google.com/spreadsheets/d/1XIYQdlldXhkW3DN9ARVt_awxt62NBbBu/edit?gid=1662322260#gid=1662322260">debiteuren</Link>.</li>
                             <li>Bijhouden van voorraadniveaus voor tijdige afhandeling van <Link target="_blank" to="https://docs.google.com/document/d/1611XXm8c0Set_QbJwsN3RuuQYrG9TC77GacNoj1d9Rw/edit?tab=t.0">werkorders.</Link></li>
                             <li>Aanmaken van grootboekrekeningen en activa.</li>
                             <li>Aanpassing van vaste memoriaal-boekingen voor lease-rentebedragen.</li>
@@ -31,12 +32,12 @@ function FinancieelAdministrateurNL () {
                         <p><b>Referentie: </b>b.vanbeers@lithiumsafetycontainers.com (eigenaar)</p>
                     </section>
                 </div>
-                <Link to="https://www.lithiumsafetycontainers.nl" className='iframe-link'>
-                <iframe title="Photo" src="https://www.lithiumsafetycontainers.nl"></iframe>
-                </Link>            
+                <div className='iframe-link'>
+                    <iframe title="Photo" src="https://www.lithiumsafetycontainers.nl"/>
+                </div>            
             </div>
             <div className='iframe-div'>                
-                <iframe title="Dashboard-PK" rel="noopener noreferrer" src="https://docs.google.com/spreadsheets/d/11yLmO3SV6ec7EbvlEo39hJkgVDIKak9pHQo8ZauztqM/edit?gid=59831044#gid=59831044"></iframe>
+                <iframe title="Dashboard-PK" src="https://docs.google.com/spreadsheets/d/11yLmO3SV6ec7EbvlEo39hJkgVDIKak9pHQo8ZauztqM/edit?gid=59831044#gid=59831044"/>
             </div>
         </div>
     )
