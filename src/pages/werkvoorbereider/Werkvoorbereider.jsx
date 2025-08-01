@@ -15,13 +15,14 @@ function Werkvoorbereider () {
         <ul>
             <li>Begeleiden van bouwprojecten.</li>
             <li>Controleren, toetsen en aanpassen van werktekeningen.</li>
-            <li>Bestellen en inkoop van materialen.</li>
-            <li>Bijhouden van meer- en minderwerk.</li>
+            <li>Bestellen en inkoop van <Link target="_blank" to="https://docs.google.com/spreadsheets/d/1vcT31ATHy5KgmvNFkFjCfOHOhvKZ7fxr/edit?gid=729383348#gid=729383348">materialen</Link>.</li>
+            <li>Bijhouden van <Link target="_blank" to="https://docs.google.com/spreadsheets/d/15gNbacEz9i4LlTjztvz3aoL7ItgHlx84/edit?gid=1553897289#gid=1553897289">meer- en minderwerk</Link>.</li>
             <li>Bewaken van begroting.</li>
-            <li>Planning opstellen en bijhouden.</li>
+            <li><Link target="_blank" to="https://docs.google.com/spreadsheets/d/1pbeZVBqXtTpHvkkVLO2XaTrT5Z0eyMwS/edit?gid=1653394005#gid=1653394005">Planning</Link> opstellen en bijhouden.</li>
             <li>Instructies geven aan onderaannemers.</li>
             <li>Samenstellen van offertes.</li>
             <li>Kosten calculaties.</li>
+            {/* <Link target="_blank" to=""></Link> */}
         </ul>
     </body>    
     <Link to="https://ngavanbeek.nl/">
