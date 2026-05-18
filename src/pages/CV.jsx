@@ -29,7 +29,7 @@ useEffect(() => {
  
     return (
         <div className='iframe' >      
-            <iframe className="CV" title='Google Sheet' src="https://docs.google.com/document/d/1gMY2XgNAmYNv9fomwHy8h9lEFNDqzBwlZHd6INLN0E4/edit?usp=sharing"></iframe>
+            <iframe className="CV" title='Google Sheet' src="https://docs.google.com/document/d/105MlyqQx_dFHd58zyIAjGCwMa4sVD-mTdCx_6juidBM/edit?tab=t.0"></iframe>
         </div>
     )
 }

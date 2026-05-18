@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
+// @ts-ignore
 import './App.css'
 import Home from './pages/home/Home';
 // import NavBar from "./components/navbar/Navbar";
@@ -13,7 +14,7 @@ import ProductionAccountant from 'pages/productionAccountant/ProductionAccountan
 import FinancieelAdministrateurNL from 'pages/financieelAdministrateurNL/FinancieelAdministrateurNL';
 import CV from './pages/CV';
 import FinancieelAdministrateurSA from 'pages/FinancieelAdministrateurSA/FinancieelAdministrateurSA';
-import BoekhouderTemp from 'pages/boekhouder/BoekhouderTemp';
+import FinancieelMedewerker from 'pages/financieelMedewerker/FinancieelMedewerker';
 
 const queryClient = new QueryClient();
 
@@ -35,7 +36,7 @@ function App() {
                             <Route path="/financieelAdministrateurSA" element={ <FinancieelAdministrateurSA/> }/>
                             <Route path="/datacleaner" element={ <DataCleaner/> }/>
                             <Route path="/financieelAdministrateurNL" element={ <FinancieelAdministrateurNL/> }/>
-                            <Route path="/boekhouder" element={ <BoekhouderTemp/> }/> 
+                            <Route path="/financieelMedewerker" element={ <FinancieelMedewerker/> }/> 
                     </Routes>
                 </main>                
                 <Footer />
