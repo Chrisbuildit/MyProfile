@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-// @ts-ignore
-import './App.css'
+import './App.css';
 import Home from './pages/home/Home';
 // import NavBar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
@@ -39,7 +38,7 @@ function App() {
                             <Route path="/financieelMedewerker" element={ <FinancieelMedewerker/> }/> 
                     </Routes>
                 </main>                
-                <Footer />
+                {/* <Footer /> */}
             </>
         </QueryClientProvider>
         

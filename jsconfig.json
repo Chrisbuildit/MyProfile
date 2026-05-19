@@ -3,6 +3,7 @@
       "ignoreDeprecations": "6.0",
       "baseUrl": "./src",
       "checkJs": true,
-      "jsx": "react"
+      "jsx": "react",
+      "skipLibCheck": true
     }
   }
